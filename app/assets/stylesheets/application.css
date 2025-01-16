@@ -1,0 +1,101 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+@import "application.tailwind";
+
+.center {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 250px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+
+.post-div {
+  display: flex;
+  gap: 20px;
+  width: 900px;
+  justify-content: center;
+  margin: auto 10px;
+  flex-wrap: wrap;
+  margin-top: 55px;
+  margin-left: 19%;
+}
+
+.link-color {
+  color: blue;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.text-title {
+  margin-left: 25px;
+  border-radius: 20px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.input-field {
+  width: 20rem;
+  border-radius: 10px !important;
+}
+
+.align {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.danger{
+    color: red;
+}
